@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TOKYO</title>
+    <link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+         $('.Toggle').click(function() {
+          $(this).toggleClass('active');
+
+         if ($(this).hasClass('active')) {
+          $('.NavMenu').addClass('active');//クラスを付与
+         } else {
+          $('.NavMenu').removeClass('active'); //クラスを外す
+         }
+         });
+        });
+    </script>
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+</head>
+<body>
+    <header class="clearfix">
+        <div class="pc">
+			<h1 class="logo">
+				<img src="img/logo.png" alt="#">
+			</h1>
+        </div>
+        <div class="sp">
+			<h1 class="logo">
+				<img src="img/logo_sp.png" alt="#">
+			</h1>
+        </div>
+			<nav class="pc">
+				<ul>
+					<li><a href="index.html"><img src="img/navi_Home.jpg" alt="#"></a></li>
+					<li><a href="index_Food.html"><img src="img/navi_Food.jpg" alt="#"></a></li>
+					<li><a href="https://www.booking.com/index.html?aid=309654&label=hotels-japanese-ja-C4ge%2AfsoLF3atEQYzlEfTQS230485390460%3Apl%3Ata%3Ap1%3Ap2343%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-359702354%3Alp1009310%3Ali%3Adec%3Adm&sid=41740b685c42b458577bc1afe149509d&lang=en-us&sb_price_type=total&soz=1&lang_click=top;cdl=ja;lang_changed=1"><img src="img/navi_Hotel.jpg" alt="#"></a></li>
+					<li><a href="index_Spot.html"><img src="img/navi_Spot.jpg" alt="#"></a></li>
+				</ul>
+			</nav>
+        <div class="sp">
+            <nav class="NavMenu">
+                 <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index_Food.html">Food</a></li>
+                  <li><a href="https://www.booking.com/index.html?aid=309654&label=hotels-japanese-ja-C4ge%2AfsoLF3atEQYzlEfTQS230485390460%3Apl%3Ata%3Ap1%3Ap2343%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-359702354%3Alp1009310%3Ali%3Adec%3Adm&sid=41740b685c42b458577bc1afe149509d&lang=en-us&sb_price_type=total&soz=1&lang_click=top;cdl=ja;lang_changed=1">Hotel</a></li>
+                  <li><a href="index_Spot.html">Spot</a></li>
+                 </ul>
+                </nav>
+                <!-- ハンバーガーメニュー部分 --> 
+                <div class="Toggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+        </div>
+    </header>
+            <div class="pc">
+                <div class="showcase">
+            
+                </div>
+            </div>
+            <div class="sp">
+                <div class="showcase2">
+            
+                </div>
+            </div>
+    <article>
+        <div class="pc">
+        <p class="title_pc">Category</p>
+        </div>
+        <div class="sp">
+        <div class="title"><img src="img/Category.jpg">
+            </div>
+        </div>
+        <div>
+                </div>
+        <div class="pc">
+        <section id="category">
+            <ul>
+                <li><a href="index_Food.html"><img src="img/Food_pc.jpg"></a></li>
+                <li><a href="https://www.booking.com/index.html?aid=309654&label=hotels-japanese-ja-C4ge%2AfsoLF3atEQYzlEfTQS230485390460%3Apl%3Ata%3Ap1%3Ap2343%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-359702354%3Alp1009310%3Ali%3Adec%3Adm&sid=41740b685c42b458577bc1afe149509d&lang=en-us&sb_price_type=total&soz=1&lang_click=top;cdl=ja;lang_changed=1"><img src="img/Hotel_pc.jpg"></a></li>
+                <li><a href="index_Spot.html"><img src="img/Spot_pc.jpg"></a></li>
+            </ul>
+        </section>
+        </div>
+        <div class="sp">
+        <section id="category">
+            <ul>
+                <li><a href="index_Food.html"><img src="img/Food_sp.jpg"></a></li>
+                <li><a href="https://www.booking.com/index.html?aid=309654&label=hotels-japanese-ja-C4ge%2AfsoLF3atEQYzlEfTQS230485390460%3Apl%3Ata%3Ap1%3Ap2343%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-359702354%3Alp1009310%3Ali%3Adec%3Adm&sid=41740b685c42b458577bc1afe149509d&lang=en-us&sb_price_type=total&soz=1&lang_click=top;cdl=ja;lang_changed=1"><img src="img/Hotel_sp.jpg"></a></li>
+                <li><a href="index_Spot.html"><img src="img/Spot_sp.jpg"></a></li>
+            </ul>
+        </section>
+        </div>
+    </article>
+	<footer>
+        <div class="pc">
+		<P>&copy;TOKYO SCHOOL OF BUSINESS IT business department. All Rights Reseved</P>
+        </div>
+        <div class="sp">
+		<P>&copy;TOKYO SCHOOL OF BUSINESS <br>IT business department. All Rights Reseved</P>
+        </div>
+	</footer>
+</body>
+</html>
